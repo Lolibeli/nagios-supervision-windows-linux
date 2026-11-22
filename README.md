@@ -248,3 +248,88 @@ Il s'inscrit dans un parcours professionnel orienté vers les métiers de :
 **Auteure : Matine Lolita GNAMKOULAMBA**
 
 *Projet personnel de laboratoire — Administration systèmes et supervision informatique.*
+
+---
+
+# 📸 Preuves techniques — Supervision Nagios
+
+Cette section présente les principales vérifications techniques
+réalisées dans le cadre de mon laboratoire de supervision
+d'une infrastructure Windows/Linux avec Nagios.
+
+L'objectif est d'illustrer les étapes de configuration,
+de validation et de surveillance des systèmes et services.
+
+## 1. Tableau de bord Nagios
+
+![Tableau de bord Nagios](screenshots/01-tableau-de-bord-nagios.jpeg)
+
+**Description technique :**
+
+Cette capture présente l'interface de supervision Nagios,
+permettant de centraliser les informations relatives
+aux hôtes et aux services surveillés.
+
+Elle permet notamment de visualiser :
+- L'état des hôtes supervisés.
+- La disponibilité des services.
+- Les alertes et les changements d'état.
+- Les informations nécessaires au diagnostic.
+
+## 2. Validation de la configuration Nagios
+
+![Validation de la configuration Nagios](screenshots/02-validation-configuration-nagios.png)
+
+**Description technique :**
+
+Cette capture illustre la vérification de la configuration
+de Nagios avant son application.
+
+Cette étape permet de contrôler la syntaxe des fichiers
+de configuration et de détecter d'éventuelles erreurs
+susceptibles d'empêcher le bon fonctionnement du service.
+
+## 3. Supervision Windows avec NSClient++
+
+![Service NSClient++ Windows](screenshots/03-service-nsclient-windows.png)
+
+**Description technique :**
+
+Cette capture présente le service NSClient++ installé
+sur le système Windows supervisé.
+
+NSClient++ permet de rendre accessibles certaines
+informations système à la plateforme de supervision,
+selon les modules et les contrôles configurés.
+
+## 4. Surveillance de la disponibilité et des alertes
+
+![Tableau de bord Uptime Warning](screenshots/04-tableau-de-bord-uptime-warning.jpeg)
+
+**Description technique :**
+
+Cette capture illustre la surveillance de la disponibilité
+et la visualisation des états remontés par Nagios.
+
+Les états de supervision permettent notamment
+d'identifier les situations nécessitant une vérification
+ou une intervention technique.
+
+---
+
+## 🎯 Compétences techniques mises en pratique
+
+- Installation et configuration de Nagios Core sous Ubuntu Server.
+- Supervision d'un environnement Windows/Linux.
+- Configuration et utilisation de NRPE et NSClient++.
+- Vérification des fichiers de configuration.
+- Surveillance de la disponibilité des hôtes et des services.
+- Analyse des états de supervision et des alertes.
+- Diagnostic et dépannage d'une infrastructure de monitoring.
+
+---
+
+**Projet réalisé par : Matine Lolita GNAMKOULAMBA**
+
+*Laboratoire personnel — Administration systèmes,
+supervision et infrastructure informatique.*
